@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nav</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.css">
+    <link rel="stylesheet" href="contactstyle.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"/>
+      <script src="https://kit.fontawesome.com/87cfb33c20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navigation menu-->
+        <div class="navbar">
+            <div class="container flex-nav">
+                <div class="nav-header">
+                    <img class="logo-img" src="logo-img1.png" alt="Consol brand image">
+                    <button class="nav-toggle" id="navToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <nav class="nav-links" id="nav-links">
+                    <ul>
+                        <li class="nav-link"><a href="index.html">Home</a></li>
+                        <li class="nav-link"><a href="aboutus.html">About</a></li>
+                        <li class="nav-link"><a href="services.html">Service</a></li>
+                        <li class="nav-link"><a href="courses.html">Courses</a></li>
+                        <li class="nav-link"><a href="projects.html">Project</a></li>
+                        <li class="nav-link"><a href="contact.html"  class="current">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+   <main>
+    <!--heading section-->
+    <section id="header">
+        <div class="header-container">         
+            <h2 class="header-title">CONTACT US</h2>         
+            <h3 class="header-subtitle">Get In Touch</h3>       
+        </div>
+    </section>
+    <!--contact section-->
+    <section id="contact">
+        <h2 class="contact-title">Let's Discuss Your Project.</h2>
+        <div class="container">
+            <div class="grid">
+                <h3 class="grid-title">Office Location</h3>
+                <div class="content">
+                    <i class="fa-solid fa-location-dot"></i> 
+                    <p>Martereza Building, 203</p>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-street-view"></i>
+                    <p>Ethio-China Frienship street</p>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <p>Addis Ababa, Ethiopia</p>
+                </div>
+            </div>
+            <div class="grid">
+                <h3 class="grid-title">Contact Info.</h3>
+                <div class="content">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+(251)-1-14700452</p>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-at"></i>
+                    <p>info@constructionsolutionsplc.com</p>
+                </div>
+                <div class="content">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>P.O.Box - 1531</p>
+                </div>
+            </div>
+            <div class="grid">
+                <h3 class="grid-title">Follow Us</h3>
+                <div class="content-social">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-telegram"></i>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <!--contact-form section-->
+    <section id="contact-form">
+     <h2 class="contact-form-title">Get An Enquiry</h2>
+     <div class="container">
+        <div class="form-container">  
+            <form id="form-contact" action="mail.php" method="POST">
+              <h4>Fill In The Form</h4>
+              <fieldset>
+                <input name="name" id="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+              </fieldset>
+              <fieldset>
+                <input name="email" id="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+              </fieldset>
+              <fieldset>
+                <input name="phone" id="phone" placeholder="Your Phone Number" type="tel" tabindex="3" required>
+              </fieldset>          
+              <fieldset>
+                <textarea name="message" id="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+              </fieldset>
+              <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31526.95396507811!2d38.752658641142865!3d8.984177574637764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85fad4cc3249%3A0xed635792e0eaef4f!2sConstruction%20Solutions%20PLC!5e0!3m2!1sen!2set!4v1645440997488!5m2!1sen!2set" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+     </div>
+    </section>
+    <!--footer section-->
+    <footer id="footer-sect">
+        <div class="row">
+          <div class="col">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            
+              <div class="locations"><i class="fa-solid fa-location-dot"></i><p>Martereza Building, 203</p> </div>
+              <div class="locations"><i class="fa-solid fa-map-location-dot"></i><p>Ethio-China Frienship street</p></div>
+              <div class="locations"><i class="fas fa-phone-square-alt"></i><p>+(251)-1-14700452</p></div>
+              <div class="locations"><i class="fa-solid fa-at"></i><p>info@constructionsolutionsplc.com</p></div>
+              <div class="locations"><i class="far fa-envelope"></i><p>P.O.Box - 1531</p></div>
+           
+          </div>
+          <div class="col">
+            <h3>Links <div class="underline"><span></span></div></h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="services.html">Service</a></li>
+              <li><a href="projects.html">Project</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Courses</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Service <div class="underline"><span></span></div></h3>
+            <ul>
+              <li><a href="services.html">Construction Consultancy</a></li>
+              <li><a href="services.html">Business Consultancy</a></li>
+              <li><a href="services.html">Training</a></li>
+              <li><a href="services.html">Certification</a></li>
+              <li><a href="services.html">Software Resellers</a></li>
+              
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Newsletter <div class="underline"><span></span></div></h3>
+            <form>
+              <i class="far fa-envelope"></i>
+              <input type="email" placeholder="Enter your email id" required>
+              <button type="submit"><i class="fas fa-arrow-right"></i></button>
+            </form>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-whatsapp"></i>
+              <i class="fab fa-telegram"></i>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p class="copyright">Construction solutions Plc 2022 - All rights Reserved</p> 
+      </footer>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+ </body>
+</html>
