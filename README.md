@@ -1,2 +1,2 @@
-# constructonsolutions-responsive
-responsive website for construction solutions plc
+
+responsive website for any business
